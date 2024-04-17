@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "rootDir": "src",
+        "target": "ESNext",
+        "outDir": "build",
+        "lib": [
+            "DOM",
+            "ESNext"
+        ],
+        "plugins": [],
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "composite": true,
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "../../node_modules"
+    ],
+    "typesafe-store": {
+        "storePath": "./test/store",
+        "framework": "vanilla"
+    }
+}
